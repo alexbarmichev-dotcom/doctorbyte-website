@@ -3,7 +3,7 @@ import Icon from '@/components/ui/icon';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { toast } from '@/hooks/use-toast';
-import logo from '@/assets/icon-final.png';
+import logo from '@/assets/logo-full.png';
 import { APP_URL, BRAND, NAV_LINKS } from './constants';
 
 const Footer = () => {
@@ -129,9 +129,8 @@ const Footer = () => {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-[1400px] flex-col gap-6 px-6 py-10 text-[0.78rem] tracking-[0.08em] text-muted-foreground md:flex-row md:items-center md:justify-between md:px-12 lg:px-[120px]">
-          <span className="flex items-center gap-2 font-head uppercase tracking-[0.16em] text-foreground">
-            <img src={logo} alt={BRAND} className="h-5 w-5 rounded-[4px]" />
-            {BRAND}
+          <span className="flex items-center">
+            <img src={logo} alt={BRAND} className="h-7 w-auto" />
           </span>
           <nav className="flex flex-wrap gap-x-8 gap-y-3">
             {NAV_LINKS.map((l) => (
