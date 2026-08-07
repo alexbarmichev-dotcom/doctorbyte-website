@@ -77,7 +77,7 @@ const Articles = () => {
               className="group h-full w-full p-8 text-left transition-colors duration-500 hover:bg-card lg:p-12"
             >
               <span className="eyebrow">{a.tag}</span>
-              <h3 className="mt-6 font-head text-xl font-light leading-snug tracking-[-0.01em]">
+              <h3 className="mt-6 font-head text-xl font-normal leading-snug tracking-[-0.01em]">
                 {a.title}
               </h3>
               <p className="mt-4 text-[0.95rem] leading-[1.65] text-muted-foreground">{a.excerpt}</p>
@@ -96,7 +96,7 @@ const Articles = () => {
             <>
               <DialogHeader>
                 <span className="eyebrow text-left">{active.tag}</span>
-                <DialogTitle className="pt-4 text-left font-head text-2xl font-light leading-snug tracking-[-0.02em]">
+                <DialogTitle className="pt-4 text-left font-head text-2xl font-normal leading-snug tracking-[-0.02em]">
                   {active.title}
                 </DialogTitle>
                 <DialogDescription className="sr-only">{active.excerpt}</DialogDescription>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import Icon from '@/components/ui/icon';
+import logo from '@/assets/icon-final.png';
 import { APP_URL, BRAND, NAV_LINKS } from './constants';
 
 const Header = () => {
@@ -29,8 +30,9 @@ const Header = () => {
       <div className="mx-auto flex max-w-[1400px] items-baseline justify-between gap-10 px-6 py-6 md:px-12 lg:px-[120px] lg:py-[30px]">
         <a
           href="#top"
-          className="font-head text-[0.95rem] font-normal uppercase tracking-[0.16em] text-foreground"
+          className="flex items-center gap-3 font-head text-[0.95rem] font-normal uppercase tracking-[0.16em] text-foreground"
         >
+          <img src={logo} alt={BRAND} className="h-7 w-7 rounded-[6px]" />
           {BRAND}
         </a>
 

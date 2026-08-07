@@ -92,7 +92,7 @@ const Features = () => (
           <div className="grid animate-fade-in gap-px border border-border bg-border lg:grid-cols-2">
             <div className="bg-background p-8 lg:p-12">
               <Icon name={f.icon} size={26} strokeWidth={1} className="text-primary" />
-              <h3 className="mt-8 font-head text-2xl font-light tracking-[-0.02em]">{f.title}</h3>
+              <h3 className="mt-8 font-head text-2xl font-normal tracking-[-0.02em]">{f.title}</h3>
               <p className="mt-5 leading-[1.65] text-muted-foreground">{f.text}</p>
               <ul className="mt-8 space-y-4">
                 {f.points.map((p) => (

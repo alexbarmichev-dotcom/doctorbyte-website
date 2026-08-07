@@ -13,7 +13,7 @@ const CallToAction = () => {
         className={`${className} mx-auto max-w-[1400px] px-6 py-28 text-center md:px-12 lg:px-[120px] lg:py-[150px]`}
       >
         <p className="eyebrow">Лаб-Гид.РФ</p>
-        <h2 className="mx-auto mt-8 max-w-[16em] font-head text-[2rem] font-extralight leading-[1.1] tracking-[-0.03em] sm:text-[2.8rem]">
+        <h2 className="mx-auto mt-8 max-w-[16em] font-head text-[2rem] font-light leading-[1.1] tracking-[-0.03em] sm:text-[2.8rem]">
           Следующий бланк уже не будет непонятным.
         </h2>
         <p className="mx-auto mt-7 max-w-[30em] leading-[1.65] text-muted-foreground">

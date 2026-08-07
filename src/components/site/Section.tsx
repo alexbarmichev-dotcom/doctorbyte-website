@@ -27,7 +27,7 @@ const Section = ({ id, eyebrow, title, lead, children, className = '', surface }
           <div className="max-w-[46em]">
             {eyebrow && <p className="eyebrow">{eyebrow}</p>}
             {title && (
-              <h2 className="mt-6 font-head text-[1.85rem] font-extralight leading-[1.14] tracking-[-0.02em] sm:text-[2.4rem]">
+              <h2 className="mt-6 font-head text-[1.85rem] font-light leading-[1.14] tracking-[-0.02em] sm:text-[2.4rem]">
                 {title}
               </h2>
             )}

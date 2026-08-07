@@ -59,7 +59,7 @@ const Faq = () => (
             itemProp="mainEntity"
             itemType="https://schema.org/Question"
           >
-            <AccordionTrigger className="py-7 text-left font-head text-lg font-light tracking-[-0.01em] hover:no-underline">
+            <AccordionTrigger className="py-7 text-left font-head text-lg font-normal tracking-[-0.01em] hover:no-underline">
               <span itemProp="name">{item.q}</span>
             </AccordionTrigger>
             <AccordionContent

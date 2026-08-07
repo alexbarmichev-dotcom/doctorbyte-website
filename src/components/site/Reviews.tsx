@@ -41,7 +41,7 @@ const Reviews = () => (
           key={r.name}
           className="break-inside-avoid border border-border bg-background p-8 transition-colors duration-500 hover:bg-card lg:p-10"
         >
-          <blockquote className="font-head text-[1.02rem] font-light leading-[1.6] tracking-[-0.01em]">
+          <blockquote className="font-head text-[1.02rem] font-normal leading-[1.6] tracking-[-0.01em]">
             «{r.text}»
           </blockquote>
           <figcaption className="mt-8 border-t border-border pt-5">

@@ -43,7 +43,7 @@ const HowItWorks = () => (
               className="text-primary opacity-60 transition-opacity duration-500 group-hover:opacity-100"
             />
           </div>
-          <h3 className="mt-12 font-head text-xl font-light tracking-[-0.01em]">{step.title}</h3>
+          <h3 className="mt-12 font-head text-xl font-normal tracking-[-0.01em]">{step.title}</h3>
           <p className="mt-4 text-[0.95rem] leading-[1.65] text-muted-foreground">{step.text}</p>
         </li>
       ))}

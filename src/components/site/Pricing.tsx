@@ -82,13 +82,13 @@ const Pricing = () => {
               className={`flex flex-col p-8 lg:p-12 ${plan.accent ? 'bg-card' : 'bg-background'}`}
             >
               <div className="flex items-baseline justify-between gap-4">
-                <h3 className="font-head text-xl font-light tracking-[-0.01em]">{plan.name}</h3>
+                <h3 className="font-head text-xl font-normal tracking-[-0.01em]">{plan.name}</h3>
                 <span className="eyebrow shrink-0">{plan.note}</span>
               </div>
 
               <p className="mt-4 text-[0.92rem] text-muted-foreground">{plan.desc}</p>
 
-              <p className="mt-10 font-head text-[2.6rem] font-extralight leading-none tracking-[-0.03em]">
+              <p className="mt-10 font-head text-[2.6rem] font-light leading-none tracking-[-0.03em]">
                 {price === 0 ? '0' : price.toLocaleString('ru-RU')}
                 <span className="ml-2 align-middle text-base text-muted-foreground">
                   ₽ {price === 0 ? '' : yearly ? '/ год' : '/ мес'}

@@ -3,6 +3,7 @@ import Icon from '@/components/ui/icon';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { toast } from '@/hooks/use-toast';
+import logo from '@/assets/icon-final.png';
 import { APP_URL, BRAND, NAV_LINKS } from './constants';
 
 const Footer = () => {
@@ -36,7 +37,7 @@ const Footer = () => {
       <div className="mx-auto grid max-w-[1400px] gap-16 px-6 py-24 md:px-12 lg:grid-cols-2 lg:gap-24 lg:px-[120px] lg:py-[120px]">
         <div>
           <p className="eyebrow">Контакты</p>
-          <h2 className="mt-6 font-head text-[1.85rem] font-extralight leading-[1.14] tracking-[-0.02em] sm:text-[2.2rem]">
+          <h2 className="mt-6 font-head text-[1.85rem] font-light leading-[1.14] tracking-[-0.02em] sm:text-[2.2rem]">
             Остались вопросы — напишите нам
           </h2>
           <p className="mt-6 max-w-[30em] leading-[1.65] text-muted-foreground">
@@ -128,7 +129,10 @@ const Footer = () => {
 
       <div className="border-t border-border">
         <div className="mx-auto flex max-w-[1400px] flex-col gap-6 px-6 py-10 text-[0.78rem] tracking-[0.08em] text-muted-foreground md:flex-row md:items-center md:justify-between md:px-12 lg:px-[120px]">
-          <span className="font-head uppercase tracking-[0.16em] text-foreground">{BRAND}</span>
+          <span className="flex items-center gap-2 font-head uppercase tracking-[0.16em] text-foreground">
+            <img src={logo} alt={BRAND} className="h-5 w-5 rounded-[4px]" />
+            {BRAND}
+          </span>
           <nav className="flex flex-wrap gap-x-8 gap-y-3">
             {NAV_LINKS.map((l) => (
               <a key={l.href} href={l.href} className="transition-colors hover:text-foreground">

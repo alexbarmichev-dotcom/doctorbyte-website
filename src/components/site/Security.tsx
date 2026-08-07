@@ -35,7 +35,7 @@ const Security = () => (
       {POINTS.map((p) => (
         <div key={p.title} className="bg-background p-8 lg:p-10">
           <Icon name={p.icon} size={22} strokeWidth={1} className="text-primary" />
-          <h3 className="mt-8 font-head text-lg font-light tracking-[-0.01em]">{p.title}</h3>
+          <h3 className="mt-8 font-head text-lg font-normal tracking-[-0.01em]">{p.title}</h3>
           <p className="mt-3 text-[0.95rem] leading-[1.65] text-muted-foreground">{p.text}</p>
         </div>
       ))}

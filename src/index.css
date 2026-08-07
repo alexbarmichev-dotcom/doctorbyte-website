@@ -7,42 +7,42 @@
     /* --- hero tokens (перенесены 1-в-1 из выбранного варианта «Одна капля») --- */
     --hero-bg: #f3f1ec;
     --hero-surface: #eae7e0;
-    --hero-text: #2b2a26;
-    --hero-muted: #8b867c;
-    --hero-accent: #6f7a66;
+    --hero-text: #201f1c;
+    --hero-muted: #6f6b63;
+    --hero-accent: #5c6854;
     --hero-accent-contrast: #f6f5f1;
     --hero-size-head: 56px;
     --hero-size-body: 17px;
     --hero-radius: 0px;
 
-    --hero-x-glass: #eeebe4;
-    --hero-x-drop-core: #e4e2da;
-    --hero-x-drop-rim: #d3d2c8;
-    --hero-x-drop-edge: #b9baae;
-    --hero-x-drop-caustic: #c9cfbc;
-    --hero-x-shadow: #a8a498;
-    --hero-x-hair: #c6c2b8;
+    --hero-x-glass: #fffffb;
+    --hero-x-drop-core: #fffdf4;
+    --hero-x-drop-rim: #f5f4e8;
+    --hero-x-drop-edge: #dedfd1;
+    --hero-x-drop-caustic: #edf4de;
+    --hero-x-shadow: #cac5b6;
+    --hero-x-hair: #eae5d9;
 
     --background: 43 24% 94%;
-    --foreground: 48 6% 16%;
+    --foreground: 48 8% 11%;
 
     --card: 48 21% 95%;
-    --card-foreground: 48 6% 16%;
+    --card-foreground: 48 8% 11%;
 
     --popover: 48 21% 95%;
-    --popover-foreground: 48 6% 16%;
+    --popover-foreground: 48 8% 11%;
 
-    --primary: 93 7% 44%;
+    --primary: 93 12% 35%;
     --primary-foreground: 48 21% 95%;
 
     --secondary: 42 19% 90%;
-    --secondary-foreground: 48 6% 16%;
+    --secondary-foreground: 48 8% 11%;
 
     --muted: 42 19% 90%;
-    --muted-foreground: 40 6% 46%;
+    --muted-foreground: 40 8% 37%;
 
     --accent: 42 19% 90%;
-    --accent-foreground: 48 6% 16%;
+    --accent-foreground: 48 8% 11%;
 
     --destructive: 8 42% 46%;
     --destructive-foreground: 48 21% 95%;
@@ -136,7 +136,7 @@
     @apply bg-background text-foreground;
     font-family: "Inter", sans-serif;
     font-size: var(--hero-size-body);
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.55;
     -webkit-font-smoothing: antialiased;
   }
