@@ -1,3 +1,4 @@
+import dropImg from '@/assets/hero-drop-red.png';
 import { APP_NAME, APP_URL } from './constants';
 
 const Hero = () => {
@@ -34,7 +35,7 @@ const Hero = () => {
       <div className="hero-drop-stage hidden lg:block" aria-hidden="true">
         <div className="hero-ring" />
         <div className="hero-contact" />
-        <div className="hero-drop" />
+        <img src={dropImg} alt="" className="hero-drop-img" />
       </div>
 
       <div className="mt-24 text-[0.74rem] uppercase tracking-[0.18em] text-muted-foreground lg:absolute lg:bottom-[46px] lg:left-[120px] lg:mt-0">

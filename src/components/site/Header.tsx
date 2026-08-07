@@ -27,13 +27,9 @@ const Header = () => {
         scrolled ? 'bg-background/85 backdrop-blur-md border-b border-border' : 'bg-transparent'
       }`}
     >
-      <div className="mx-auto flex max-w-[1400px] items-baseline justify-between gap-10 px-6 py-6 md:px-12 lg:px-[120px] lg:py-[30px]">
-        <a
-          href="#top"
-          className="flex items-center gap-3 font-head text-[0.95rem] font-normal uppercase tracking-[0.16em] text-foreground"
-        >
-          <img src={logo} alt={BRAND} className="h-7 w-7 rounded-[6px]" />
-          {BRAND}
+      <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-10 px-6 py-4 md:px-12 lg:px-[120px] lg:py-[18px]">
+        <a href="#top" className="flex items-center self-center" aria-label={BRAND}>
+          <img src={logo} alt={BRAND} className="h-12 w-12 rounded-[8px] lg:h-14 lg:w-14" />
         </a>
 
         <nav className="hidden items-baseline gap-7 text-[0.8rem] tracking-[0.09em] lg:flex xl:gap-9">
