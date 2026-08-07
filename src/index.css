@@ -4,35 +4,54 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* --- hero tokens (перенесены 1-в-1 из выбранного варианта «Одна капля») --- */
+    --hero-bg: #f3f1ec;
+    --hero-surface: #eae7e0;
+    --hero-text: #2b2a26;
+    --hero-muted: #8b867c;
+    --hero-accent: #6f7a66;
+    --hero-accent-contrast: #f6f5f1;
+    --hero-size-head: 56px;
+    --hero-size-body: 17px;
+    --hero-radius: 0px;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --hero-x-glass: #eeebe4;
+    --hero-x-drop-core: #e4e2da;
+    --hero-x-drop-rim: #d3d2c8;
+    --hero-x-drop-edge: #b9baae;
+    --hero-x-drop-caustic: #c9cfbc;
+    --hero-x-shadow: #a8a498;
+    --hero-x-hair: #c6c2b8;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --background: 43 24% 94%;
+    --foreground: 48 6% 16%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --card: 48 21% 95%;
+    --card-foreground: 48 6% 16%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --popover: 48 21% 95%;
+    --popover-foreground: 48 6% 16%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --primary: 93 7% 44%;
+    --primary-foreground: 48 21% 95%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --secondary: 42 19% 90%;
+    --secondary-foreground: 48 6% 16%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --muted: 42 19% 90%;
+    --muted-foreground: 40 6% 46%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --accent: 42 19% 90%;
+    --accent-foreground: 48 6% 16%;
 
-    --radius: 0.5rem;
+    --destructive: 8 42% 46%;
+    --destructive-foreground: 48 21% 95%;
+
+    --border: 43 11% 78%;
+    --input: 43 11% 75%;
+    --ring: 93 7% 44%;
+
+    --radius: 0px;
 
     --sidebar-background: 0 0% 98%;
 
@@ -52,33 +71,47 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --hero-bg: #1c1c19;
+    --hero-surface: #232320;
+    --hero-text: #edeae2;
+    --hero-muted: #9b968b;
+    --hero-accent: #9aa88e;
+    --hero-accent-contrast: #1c1c19;
+    --hero-x-glass: #26261f;
+    --hero-x-drop-core: #34342d;
+    --hero-x-drop-rim: #2a2a24;
+    --hero-x-drop-edge: #4a4a41;
+    --hero-x-drop-caustic: #46503c;
+    --hero-x-shadow: #000000;
+    --hero-x-hair: #3d3d36;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --background: 60 5% 10%;
+    --foreground: 45 20% 91%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --card: 60 5% 13%;
+    --card-foreground: 45 20% 91%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --popover: 60 5% 13%;
+    --popover-foreground: 45 20% 91%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --primary: 92 13% 61%;
+    --primary-foreground: 60 5% 10%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --secondary: 60 5% 17%;
+    --secondary-foreground: 45 20% 91%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --muted: 60 5% 17%;
+    --muted-foreground: 42 6% 63%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --accent: 60 5% 17%;
+    --accent-foreground: 45 20% 91%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    --destructive: 8 42% 40%;
+    --destructive-foreground: 45 20% 91%;
+
+    --border: 55 6% 23%;
+    --input: 55 6% 23%;
+    --ring: 92 13% 61%;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -95,7 +128,218 @@
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+    font-size: var(--hero-size-body);
+    font-weight: 300;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background: var(--hero-accent);
+    color: var(--hero-accent-contrast);
+  }
+}
+
+@layer components {
+  /* Тихая дымка матового стекла — из hero-исходника */
+  .hero-haze {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -180px;
+    height: 620px;
+    background:
+      radial-gradient(
+        58% 62% at 62% 72%,
+        var(--hero-x-glass) 0%,
+        transparent 72%
+      ),
+      linear-gradient(to bottom, transparent 0%, var(--hero-surface) 88%);
+    z-index: -2;
+    pointer-events: none;
+  }
+
+  .hero-drop-stage {
+    position: absolute;
+    right: 120px;
+    bottom: 28px;
+    width: 400px;
+    height: 340px;
+    z-index: -1;
+    animation: hero-fade 2.4s ease 0.3s both;
+  }
+
+  .hero-contact {
+    position: absolute;
+    left: 50%;
+    bottom: 44px;
+    width: 300px;
+    height: 46px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: var(--hero-x-shadow);
+    opacity: 0.28;
+    filter: blur(26px);
+    animation: hero-settle 14s ease-in-out infinite;
+  }
+
+  .hero-drop {
+    position: absolute;
+    left: 50%;
+    bottom: 40px;
+    width: 300px;
+    height: 252px;
+    transform: translateX(-50%);
+    border-radius: 50% 50% 48% 48% / 54% 54% 46% 46%;
+    background:
+      radial-gradient(
+        72% 66% at 34% 24%,
+        var(--hero-accent-contrast) 0%,
+        transparent 46%
+      ),
+      radial-gradient(
+        46% 40% at 64% 79%,
+        var(--hero-x-drop-caustic) 0%,
+        transparent 62%
+      ),
+      radial-gradient(
+        96% 96% at 46% 42%,
+        var(--hero-x-drop-core) 0%,
+        var(--hero-x-drop-rim) 74%,
+        var(--hero-x-drop-edge) 100%
+      );
+    box-shadow:
+      0 26px 46px -24px var(--hero-x-shadow),
+      inset 0 -20px 34px -18px var(--hero-x-drop-edge),
+      inset 0 14px 26px -12px var(--hero-accent-contrast);
+    animation: hero-breathe 14s ease-in-out infinite;
+  }
+
+  .hero-drop::after {
+    content: "";
+    position: absolute;
+    left: 21%;
+    top: 15%;
+    width: 74px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--hero-accent-contrast);
+    opacity: 0.8;
+    filter: blur(5px);
+    transform: rotate(-22deg);
+  }
+
+  .hero-ring {
+    position: absolute;
+    left: 50%;
+    bottom: 24px;
+    width: 470px;
+    height: 96px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 1px solid var(--hero-x-hair);
+    opacity: 0.5;
+  }
+
+  /* Линия-CTA из hero: тик, растущий при наведении */
+  .tick-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    width: fit-content;
+    padding-bottom: 10px;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--hero-x-hair);
+    transition:
+      border-color 0.5s ease,
+      color 0.5s ease;
+  }
+
+  .tick-link .tick {
+    width: 34px;
+    height: 1px;
+    background: var(--hero-accent);
+    transition: width 0.5s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .tick-link:hover {
+    border-bottom-color: var(--hero-accent);
+  }
+
+  .tick-link:hover .tick {
+    width: 58px;
+  }
+
+  .eyebrow {
+    font-size: 0.72rem;
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    @apply text-primary;
+  }
+
+  .rule {
+    @apply h-px w-full bg-border;
+  }
+}
+
+@layer utilities {
+  .reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition:
+      opacity 1s cubic-bezier(0.22, 0.61, 0.36, 1),
+      transform 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+  }
+
+  .reveal-in {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes hero-breathe {
+  0%,
+  100% {
+    transform: translateX(-50%) scale(1);
+  }
+  50% {
+    transform: translateX(-50%) scale(1.018);
+  }
+}
+
+@keyframes hero-settle {
+  0%,
+  100% {
+    opacity: 0.28;
+    transform: translateX(-50%) scaleX(1);
+  }
+  50% {
+    opacity: 0.22;
+    transform: translateX(-50%) scaleX(1.05);
+  }
+}
+
+@keyframes hero-fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
   }
 }
