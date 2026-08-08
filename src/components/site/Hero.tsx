@@ -1,4 +1,4 @@
-import dropImg from '@/assets/hero-drop-red.png';
+import dropImg from '@/assets/hero-drop-nurse.png';
 import { APP_NAME, APP_URL } from './constants';
 
 const Hero = () => {
