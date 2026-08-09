@@ -2,6 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import Icon from '@/components/ui/icon';
 import Section from './Section';
 import DynamicsChart from './DynamicsChart';
+import { APP_URL } from './constants';
 
 const FEATURES = [
   {
@@ -110,6 +111,17 @@ const Features = () => (
         </TabsContent>
       ))}
     </Tabs>
+
+    <a
+      href={APP_URL}
+      target="_blank"
+      rel="noopener"
+      className="tick-link mt-12 text-[0.92rem] text-foreground lg:mt-14"
+    >
+      <span className="tick" />
+      Открыть Лаб-Гид.РФ
+      <Icon name="ArrowUpRight" size={17} strokeWidth={1.25} className="text-primary" />
+    </a>
   </Section>
 );
 

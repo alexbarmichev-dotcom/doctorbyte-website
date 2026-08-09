@@ -1,5 +1,6 @@
 import Icon from '@/components/ui/icon';
 import Section from './Section';
+import { APP_URL } from './constants';
 
 const STEPS = [
   {
@@ -48,6 +49,17 @@ const HowItWorks = () => (
         </li>
       ))}
     </ol>
+
+    <a
+      href={APP_URL}
+      target="_blank"
+      rel="noopener"
+      className="tick-link mt-12 text-[0.92rem] text-foreground lg:mt-14"
+    >
+      <span className="tick" />
+      Попробовать на своём анализе
+      <Icon name="ArrowUpRight" size={17} strokeWidth={1.25} className="text-primary" />
+    </a>
   </Section>
 );
 
