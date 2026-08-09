@@ -1,4 +1,4 @@
-export const APP_URL = 'https://xn--80ahdri7a.xn--p1ai';
+export const APP_URL = 'https://preview--medgid-analyzer.poehali.dev/';
 export const APP_NAME = 'Лаб-Гид.РФ';
 export const BRAND = 'ДокторБайт';
 
