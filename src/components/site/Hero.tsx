@@ -19,12 +19,11 @@ const Hero = () => {
 
       <div className="mt-7 max-w-[30em] animate-rise leading-[1.6] text-muted-foreground [animation-delay:.3s] lg:mt-[30px]">
         <p>
-          <span className="font-medium text-[#00502d]">ДокторБайт</span> — персональный ассистент
-          на&nbsp;мировой медицинской базе знаний. Объясняет анализы простым языком
-          и&nbsp;готовит к&nbsp;визиту к&nbsp;врачу.
+          <span className="font-medium text-[#00502d]">ДокторБайт</span> объяснит ваши анализы
+          понятным языком за&nbsp;60 секунд.
         </p>
         <p className="mt-4 text-[0.9rem] tracking-[0.02em] text-muted-foreground/85">
-          История анализов · графики динамики · тренды · экспорт в PDF
+          ✓ Дневник здоровья ✓ Графики динамики ✓ Тренды ✓ PDF для врача
         </p>
       </div>
 
