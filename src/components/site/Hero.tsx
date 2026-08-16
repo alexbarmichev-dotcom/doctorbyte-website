@@ -21,7 +21,7 @@ const Hero = () => {
       </div>
 
       <a
-        className="tick-link mt-12 animate-rise text-[0.92rem] text-foreground [animation-delay:.46s] lg:mt-[54px]"
+        className="tick-link mt-12 animate-rise text-foreground [animation-delay:.46s] lg:mt-[54px] text-2xl font-medium"
         href={APP_URL}
         target="_blank"
         rel="noopener"
