@@ -9,7 +9,7 @@ const Hero = () => {
     >
       <div className="hero-haze" aria-hidden="true" />
 
-      <p className="eyebrow mt-16 animate-rise lg:mt-[118px]">{APP_NAME}</p>
+      <p className="eyebrow mt-16 animate-rise lg:mt-[118px] text-center text-base">{APP_NAME}</p>
 
       <h1 className="mt-7 max-w-[15em] animate-rise font-head font-light leading-[1.08] tracking-[-0.03em] [animation-delay:.12s] sm:text-[3rem] lg:mt-[30px] lg:text-[var(--hero-size-head)] text-center text-3xl">Делаем расшифровку медицинских анализов на понятном языке. Сохраним анализы и сравним новые с прежними. Покажем динамику здоровья!</h1>
 
