@@ -11,11 +11,7 @@ const Hero = () => {
 
       <p className="eyebrow mt-16 animate-rise lg:mt-[118px]">{APP_NAME}</p>
 
-      <h1 className="mt-7 max-w-[15em] animate-rise font-head text-[2.35rem] font-light leading-[1.08] tracking-[-0.03em] [animation-delay:.12s] sm:text-[3rem] lg:mt-[30px] lg:text-[var(--hero-size-head)]">
-        Прочитать свой анализ
-        <br />
-        спокойно.
-      </h1>
+      <h1 className="mt-7 max-w-[15em] animate-rise font-head font-light leading-[1.08] tracking-[-0.03em] [animation-delay:.12s] sm:text-[3rem] lg:mt-[30px] lg:text-[var(--hero-size-head)] text-4xl text-center">Делаем расшифровку медицинских анализов на понятном языке. Сохраним анализы и сравним новые с прежними. Покажем динамику здоровья!</h1>
 
       <div className="mt-7 max-w-[30em] animate-rise leading-[1.6] text-muted-foreground [animation-delay:.3s] lg:mt-[30px]">
         <p>ДокторБайт - Знай свои показатели. Управляй своим здоровьем.</p>
