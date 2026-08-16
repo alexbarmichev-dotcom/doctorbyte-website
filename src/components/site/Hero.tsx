@@ -33,7 +33,7 @@ const Hero = () => {
       <div className="hero-drop-stage hidden lg:block" aria-hidden="true">
         <div className="hero-ring" />
         <div className="hero-contact" />
-        <img src={dropImg} alt="" className="hero-drop-img" />
+        <img src={dropImg} alt="" className="hero-drop-img mx-[54px] px-0" />
       </div>
 
       <div className="mt-24 text-[0.74rem] uppercase tracking-[0.18em] text-muted-foreground lg:absolute lg:bottom-[46px] lg:left-[120px] lg:mt-0">
