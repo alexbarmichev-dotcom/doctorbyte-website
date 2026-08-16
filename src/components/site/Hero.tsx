@@ -18,10 +18,7 @@ const Hero = () => {
       </h1>
 
       <div className="mt-7 max-w-[30em] animate-rise leading-[1.6] text-muted-foreground [animation-delay:.3s] lg:mt-[30px]">
-        <p>
-          <span className="font-medium text-[#00502d]">ДокторБайт</span> объяснит ваши анализы
-          понятным языком за&nbsp;60 секунд.
-        </p>
+        <p>ДокторБайт - Знай свои показатели. Управляй своим здоровьем.</p>
         <p className="mt-4 text-[0.9rem] tracking-[0.02em] text-muted-foreground/85">
           ✓ Дневник здоровья ✓ Графики динамики ✓ Тренды ✓ PDF для врача
         </p>
