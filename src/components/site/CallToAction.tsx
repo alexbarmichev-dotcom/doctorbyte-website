@@ -25,7 +25,7 @@ const CallToAction = () => {
           href={APP_URL}
           target="_blank"
           rel="noopener"
-          className="tick-link mx-auto mt-14 text-[0.95rem] text-foreground"
+          className="tick-link mx-auto mt-14 text-foreground text-xl font-semibold"
         >
           <span className="tick" />
           Перейти в Лаб-Гид.РФ
