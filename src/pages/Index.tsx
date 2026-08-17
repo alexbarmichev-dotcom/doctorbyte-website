@@ -5,7 +5,6 @@ import Features from '@/components/site/Features';
 import Articles from '@/components/site/Articles';
 import Reviews from '@/components/site/Reviews';
 import Security from '@/components/site/Security';
-import Pricing from '@/components/site/Pricing';
 import Faq from '@/components/site/Faq';
 import CallToAction from '@/components/site/CallToAction';
 import Footer from '@/components/site/Footer';
@@ -21,7 +20,6 @@ const Index = () => {
         <Articles />
         <Reviews />
         <Security />
-        <Pricing />
         <Faq />
         <CallToAction />
       </main>

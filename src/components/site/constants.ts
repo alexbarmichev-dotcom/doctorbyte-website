@@ -8,6 +8,5 @@ export const NAV_LINKS = [
   { href: '#articles', label: 'Статьи' },
   { href: '#reviews', label: 'Отзывы' },
   { href: '#security', label: 'Данные' },
-  { href: '#pricing', label: 'Тарифы' },
   { href: '#faq', label: 'Вопросы' },
 ];
