@@ -49,9 +49,7 @@ const Footer = () => {
             <div className="flex items-center gap-4">
               <Icon name="Mail" size={17} strokeWidth={1.15} className="text-primary" />
               <dd>
-                <a href="mailto:hello@doctorbyte.ru" className="hover:text-primary">
-                  hello@doctorbyte.ru
-                </a>
+                <a href="mailto:hello@doctorbyte.ru" className="hover:text-primary">barmichev59@mail.ru</a>
               </dd>
             </div>
             <div className="flex items-center gap-4">
