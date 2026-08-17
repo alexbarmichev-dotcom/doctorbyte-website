@@ -54,7 +54,7 @@ const HowItWorks = () => (
       href={APP_URL}
       target="_blank"
       rel="noopener"
-      className="tick-link mt-12 text-[0.92rem] text-foreground lg:mt-14"
+      className="tick-link mt-12 text-foreground lg:mt-14 font-semibold text-lg"
     >
       <span className="tick" />
       Попробовать на своём анализе
